@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: nombrefuente;
+    src: url(font/DOCALLISME\ ON\ STREET.ttf);
+}
+
+html{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: nombrefuente;
+    font-size: 16px;
+}
+
+body{
+    
+}
+
+header{
+    background-color: rgb(142, 193, 255);
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 120px;
+    border-radius: 50%;
+}
+
+nav{
+    background-color: rgb(181, 249, 249);
+    padding: 15px;
+}
+
+nav a{
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 15px;
+}   
+
+nav a:hover{
+    background-color: ;
+    color: rgb(22, 206, 65);
+}
+
+main{
+    /* background-color: rgb(229, 206, 255); */
+    background-image: url(imagenes/rain.jpg);
+/*     background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,57,0,0.5461834391959909) 46%, rgba(255,214,0,0.18764002182904416) 100%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 30px 0;
+}
+
+footer{
+    background-color: rgb(255, 254, 193);
+}
+
+.px{
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    margin: 0 auto 25px;
+    margin: 25px auto;
+    background-color: rgba(255, 192, 255, 0.4);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.cuadro-rem{ /* toma font-sice del HTML */
+    width: 31.25rem;
+    height: 18.75rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(255, 192, 255, 0.4);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.cuadro-em{ /*  */
+    width: 31.25rem;
+    height: 18.75rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(255, 192, 255, 0.4);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.em{
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+}
+
+.columnas{
+    display: flex;
+    gap: 3%;
+    justify-content: center; /* horizontal */
+    align-items: center; /* Vertical */
+}
+
+.columnas .dos{
+    width: 32.5%;
+
+}
